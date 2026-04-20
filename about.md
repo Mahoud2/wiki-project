@@ -1,6 +1,6 @@
 # Over mij
 
-Mijn naam is [Jouw Naam] en ik ben student aan [School/Opleiding].
+Mijn naam is Mahmoud Abusubaih en ik ben student aan AP Hogeschool opleiding Programmeren.
 Ik ben al jarenlang fan van The Legend of Zelda, met *Ocarina of Time*
 en *Breath of the Wild* als mijn favoriete games.
 
