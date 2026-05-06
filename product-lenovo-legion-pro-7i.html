@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lenovo Legion Pro 7i - LaptopLegends</title>
+
+    <link
+      rel="preconnect"
+      href="[fonts.googleapis.com](https://fonts.googleapis.com)"
+    />
+    <link
+      rel="preconnect"
+      href="[fonts.gstatic.com](https://fonts.gstatic.com)"
+      crossorigin
+    />
+    <link
+      href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@500;700&display=swap)"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/product.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-container">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.png" alt="LaptopLegends Logo" />
+          <span class="logo-text">LaptopLegends</span>
+        </a>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article class="product-detail">
+        <div class="product-image-container">
+          <figure>
+            <img src="assets/images/product-3.jpg" alt="Lenovo Legion Pro 7i" />
+            <figcaption>
+              Afbeelding bron:
+              <a href="#" target="_blank" rel="noopener">Lenovo Official</a>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="product-info">
+          <h1>Lenovo Legion Pro 7i</h1>
+          <p class="product-price">€2499</p>
+
+          <div class="product-description">
+            <p>
+              Gebouwd voor marathonsessies. De Legion Pro 7i combineert een
+              ingenieus koelsysteem met topcomponenten, zodat je uren achtereen
+              kunt gamen zonder throttling. Het 16-inch display met 240Hz
+              verversingssnelheid maakt elke beweging vloeiend.
+            </p>
+            <p>
+              Met de krachtigste mobiele GPU van NVIDIA en Lenovo's Legion
+              Coldfront koeling presteer je consistent op het hoogste niveau. De
+              dual SSD-slots bieden ruimte voor al je games zonder compromissen.
+            </p>
+          </div>
+
+          <div class="product-specs">
+            <h2>Specificaties</h2>
+            <ul class="specs-list">
+              <li>Intel Core i9-14900HX processor</li>
+              <li>NVIDIA GeForce RTX 4090 (16GB GDDR6)</li>
+              <li>32GB DDR5 RAM</li>
+              <li>1TB + 1TB NVMe SSD (dual slot)</li>
+              <li>16-inch WQXGA 240Hz IPS display</li>
+            </ul>
+          </div>
+
+          <div class="product-actions">
+            <button class="btn" onclick="addToCart('Legion')">
+              Toevoegen aan winkelwagen
+            </button>
+
+            <button
+              class="btn btn--secondary"
+              onclick="addToWishlist('Legion')"
+            >
+              Toevoegen aan wishlist
+            </button>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <span class="footer-logo">LaptopLegends</span>
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <p class="footer-copyright">
+          © 2024 LaptopLegends. Alle rechten voorbehouden.
+        </p>
+      </div>
+    </footer>
+
+    <div id="notification" class="notification"></div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

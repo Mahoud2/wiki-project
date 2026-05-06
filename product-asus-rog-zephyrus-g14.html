@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASUS ROG Zephyrus G14 - LaptopLegends</title>
+
+    <!-- Google Fonts -->
+    <link
+      rel="preconnect"
+      href="[fonts.googleapis.com](https://fonts.googleapis.com)"
+    />
+    <link
+      rel="preconnect"
+      href="[fonts.gstatic.com](https://fonts.gstatic.com)"
+      crossorigin
+    />
+    <link
+      href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@500;700&display=swap)"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/product.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="header-container">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.png" alt="LaptopLegends Logo" />
+          <span class="logo-text">LaptopLegends</span>
+        </a>
+
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <article class="product-detail">
+        <!-- Product Image -->
+        <div class="product-image-container">
+          <figure>
+            <img
+              src="assets/images/product-1.jpg"
+              alt="ASUS ROG Zephyrus G14"
+            />
+            <figcaption>
+              Afbeelding bron:
+              <a href="#" target="_blank" rel="noopener">ASUS Official</a>
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- Product Info -->
+        <div class="product-info">
+          <h1>ASUS ROG Zephyrus G14</h1>
+          <p class="product-price">€1499</p>
+
+          <div class="product-description">
+            <p>
+              De ROG Zephyrus G14 bewijst dat krachtig en compact kunnen
+              samengaan. Met zijn 14-inch display en AMD Ryzen 9 processor is
+              dit de ideale metgezel voor gamers die onderweg willen domineren.
+              Het AniMe Matrix LED-paneel op de achterkant geeft je setup een
+              unieke, persoonlijke touch.
+            </p>
+            <p>
+              Ondanks zijn compacte formaat levert deze laptop indrukwekkende
+              prestaties dankzij de combinatie van AMD's nieuwste processor en
+              NVIDIA's RTX 4060 grafische kaart. Perfect voor zowel AAA-games
+              als productief werk.
+            </p>
+          </div>
+
+          <div class="product-specs">
+            <h2>Specificaties</h2>
+            <ul class="specs-list">
+              <li>AMD Ryzen 9 8945HS processor</li>
+              <li>NVIDIA GeForce RTX 4060 (8GB GDDR6)</li>
+              <li>16GB DDR5 RAM (uitbreidbaar tot 32GB)</li>
+              <li>1TB NVMe SSD</li>
+              <li>14-inch QHD+ 165Hz display</li>
+            </ul>
+          </div>
+
+          <div class="product-actions">
+            <button class="btn" onclick="addToCart('g14')">
+              Toevoegen aan winkelwagen
+            </button>
+
+            <button class="btn btn--secondary" onclick="addToWishlist('g14')">
+              Toevoegen aan wishlist
+            </button>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <span class="footer-logo">LaptopLegends</span>
+
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <p class="footer-copyright">
+          © 2024 LaptopLegends. Alle rechten voorbehouden.
+        </p>
+      </div>
+    </footer>
+
+    <div id="notification" class="notification"></div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

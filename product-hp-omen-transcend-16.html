@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HP Omen Transcend 16 - LaptopLegends</title>
+
+    <link
+      rel="preconnect"
+      href="[fonts.googleapis.com](https://fonts.googleapis.com)"
+    />
+    <link
+      rel="preconnect"
+      href="[fonts.gstatic.com](https://fonts.gstatic.com)"
+      crossorigin
+    />
+    <link
+      href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@500;700&display=swap)"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/product.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-container">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.png" alt="LaptopLegends Logo" />
+          <span class="logo-text">LaptopLegends</span>
+        </a>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article class="product-detail">
+        <div class="product-image-container">
+          <figure>
+            <img src="assets/images/product-6.jpg" alt="HP Omen Transcend 16" />
+            <figcaption>
+              Afbeelding bron:
+              <a href="#" target="_blank" rel="noopener">HP Official</a>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="product-info">
+          <h1>HP Omen Transcend 16</h1>
+          <p class="product-price">€1899</p>
+
+          <div class="product-description">
+            <p>
+              De Omen Transcend 16 combineert een prachtig OLED-display met
+              solide gaming-prestaties in een verrassend licht chassis. Een
+              veelzijdige keuze voor gamers die ook waarde hechten aan
+              filmkwaliteit en kleurweergave.
+            </p>
+            <p>
+              Met AMD's nieuwste Ryzen 9 processor en een verbluffend 2.5K 240Hz
+              OLED scherm krijg je zowel snelheid als visuele kwaliteit. Ideaal
+              voor gamers én content creators.
+            </p>
+          </div>
+
+          <div class="product-specs">
+            <h2>Specificaties</h2>
+            <ul class="specs-list">
+              <li>AMD Ryzen 9 8945HX processor</li>
+              <li>NVIDIA GeForce RTX 4070 (8GB GDDR6)</li>
+              <li>32GB DDR5 RAM</li>
+              <li>1TB NVMe SSD</li>
+              <li>16-inch 2.5K 240Hz OLED display</li>
+            </ul>
+          </div>
+
+          <div class="product-actions">
+            <button class="btn" onclick="addToCart('HP')">
+              Toevoegen aan winkelwagen
+            </button>
+
+            <button class="btn btn--secondary" onclick="addToWishlist('HP')">
+              Toevoegen aan wishlist
+            </button>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <span class="footer-logo">LaptopLegends</span>
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <p class="footer-copyright">
+          © 2024 LaptopLegends. Alle rechten voorbehouden.
+        </p>
+      </div>
+    </footer>
+
+    <div id="notification" class="notification"></div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

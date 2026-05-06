@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop - LaptopLegends</title>
+
+    <!-- Google Fonts -->
+    <link
+      rel="preconnect"
+      href="[fonts.googleapis.com](https://fonts.googleapis.com)"
+    />
+    <link
+      rel="preconnect"
+      href="[fonts.gstatic.com](https://fonts.gstatic.com)"
+      crossorigin
+    />
+    <link
+      href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@500;700&display=swap)"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/shop.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="header-container">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.png" alt="LaptopLegends Logo" />
+          <span class="logo-text">LaptopLegends</span>
+        </a>
+
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <div class="shop-layout">
+        <!-- Sidebar -->
+        <aside class="shop-sidebar">
+          <section class="sidebar-section">
+            <h3>Winkelwagen</h3>
+            <ul id="cart-list"></ul>
+            <p id="cart-total"></p>
+          </section>
+
+          <section class="sidebar-section">
+            <h3>Wishlist</h3>
+
+            <ul id="wishlist-list"></ul>
+          </section>
+        </aside>
+
+        <!-- Product Grid -->
+        <section class="shop-main">
+          <h2>Alle Gaming Laptops</h2>
+
+          <div class="product-grid">
+            <!-- Product 1 -->
+            <article class="product-card">
+              <div
+                class="product-card-image"
+                style="
+                  background-image: url(&quot;assets/images/product-1.jpg&quot;);
+                "
+              ></div>
+              <div class="product-card-body">
+                <h3>ASUS ROG Zephyrus G14</h3>
+                <p>
+                  Compact en krachtig met AMD Ryzen 9 en RTX 4060. Ideaal voor
+                  gamers onderweg.
+                </p>
+                <a href="product-asus-rog-zephyrus-g14.html" class="btn"
+                  >Bekijk details</a
+                >
+              </div>
+            </article>
+
+            <!-- Product 2 -->
+            <article class="product-card">
+              <div
+                class="product-card-image"
+                style="
+                  background-image: url(&quot;assets/images/product-2.jpg&quot;);
+                "
+              ></div>
+              <div class="product-card-body">
+                <h3>Razer Blade 16</h3>
+                <p>
+                  Premium gaming laptop met mini-LED display en desktop-class
+                  prestaties.
+                </p>
+                <a href="product-razer-blade-16.html" class="btn"
+                  >Bekijk details</a
+                >
+              </div>
+            </article>
+
+            <!-- Product 3 -->
+            <article class="product-card">
+              <div
+                class="product-card-image"
+                style="
+                  background-image: url(&quot;assets/images/product-3.jpg&quot;);
+                "
+              ></div>
+              <div class="product-card-body">
+                <h3>Lenovo Legion Pro 7i</h3>
+                <p>
+                  Gebouwd voor marathonsessies met geavanceerd koelsysteem en
+                  RTX 4090.
+                </p>
+                <a href="product-lenovo-legion-pro-7i.html" class="btn"
+                  >Bekijk details</a
+                >
+              </div>
+            </article>
+
+            <!-- Product 4 -->
+            <article class="product-card">
+              <div
+                class="product-card-image"
+                style="
+                  background-image: url(&quot;assets/images/product-4.jpg&quot;);
+                "
+              ></div>
+              <div class="product-card-body">
+                <h3>MSI Stealth 18</h3>
+                <p>
+                  Stijlvol en stil met een 18-inch OLED display. Perfect voor
+                  werk én gaming.
+                </p>
+                <a href="product-msi-stealth-18.html" class="btn"
+                  >Bekijk details</a
+                >
+              </div>
+            </article>
+
+            <!-- Product 5 -->
+            <article class="product-card">
+              <div
+                class="product-card-image"
+                style="
+                  background-image: url(&quot;assets/images/product-5.jpg&quot;);
+                "
+              ></div>
+              <div class="product-card-body">
+                <h3>Acer Predator Helios Neo 16</h3>
+                <p>
+                  Maximale prestaties voor een scherpe prijs. Uitstekende
+                  prijs-kwaliteit.
+                </p>
+                <a href="product-acer-predator-helios-neo-16.html" class="btn"
+                  >Bekijk details</a
+                >
+              </div>
+            </article>
+
+            <!-- Product 6 -->
+            <article class="product-card">
+              <div
+                class="product-card-image"
+                style="
+                  background-image: url(&quot;assets/images/product-6.jpg&quot;);
+                "
+              ></div>
+              <div class="product-card-body">
+                <h3>HP Omen Transcend 16</h3>
+                <p>
+                  Prachtig OLED-display met solide gaming-prestaties in een
+                  licht chassis.
+                </p>
+                <a href="product-hp-omen-transcend-16.html" class="btn"
+                  >Bekijk details</a
+                >
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <span class="footer-logo">LaptopLegends</span>
+
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <p class="footer-copyright">
+          © 2024 LaptopLegends. Alle rechten voorbehouden.
+        </p>
+      </div>
+    </footer>
+    <div id="notification" class="notification"></div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

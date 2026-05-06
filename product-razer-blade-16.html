@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Razer Blade 16 - LaptopLegends</title>
+
+    <link
+      rel="preconnect"
+      href="[fonts.googleapis.com](https://fonts.googleapis.com)"
+    />
+    <link
+      rel="preconnect"
+      href="[fonts.gstatic.com](https://fonts.gstatic.com)"
+      crossorigin
+    />
+    <link
+      href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@500;700&display=swap)"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/product.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-container">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.png" alt="LaptopLegends Logo" />
+          <span class="logo-text">LaptopLegends</span>
+        </a>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article class="product-detail">
+        <div class="product-image-container">
+          <figure>
+            <img src="assets/images/product-2.jpg" alt="Razer Blade 16" />
+            <figcaption>
+              Afbeelding bron:
+              <a href="#" target="_blank" rel="noopener">Razer Official</a>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="product-info">
+          <h1>Razer Blade 16</h1>
+          <p class="product-price">€2999</p>
+
+          <div class="product-description">
+            <p>
+              De Razer Blade 16 is een beest in een strak aluminium jasje. Met
+              een 16-inch mini-LED display en desktop-class prestaties zet deze
+              laptop de standaard voor premium gaming. Ideaal voor wie zowel wil
+              gamen als creatief werk wil doen zonder compromissen.
+            </p>
+            <p>
+              Het unibody aluminium chassis voelt premium aan en blijft koel
+              onder druk dankzij het vapor chamber koelsysteem. De mini-LED
+              technologie levert ongekende helderheid en contrast voor een
+              meeslepende ervaring.
+            </p>
+          </div>
+
+          <div class="product-specs">
+            <h2>Specificaties</h2>
+            <ul class="specs-list">
+              <li>Intel Core i9-14900HX processor</li>
+              <li>NVIDIA GeForce RTX 4080 (12GB GDDR6)</li>
+              <li>32GB DDR5 RAM</li>
+              <li>2TB NVMe SSD</li>
+              <li>16-inch UHD+ 120Hz mini-LED display</li>
+            </ul>
+          </div>
+
+          <div class="product-actions">
+            <button class="btn" onclick="addToCart('Razer')">
+              Toevoegen aan winkelwagen
+            </button>
+
+            <button class="btn btn--secondary" onclick="addToWishlist('Razer')">
+              Toevoegen aan wishlist
+            </button>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <span class="footer-logo">LaptopLegends</span>
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <p class="footer-copyright">
+          © 2024 LaptopLegends. Alle rechten voorbehouden.
+        </p>
+      </div>
+    </footer>
+
+    <div id="notification" class="notification"></div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
